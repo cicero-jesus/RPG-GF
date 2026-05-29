@@ -1,4 +1,5 @@
 class Player:
+    #Player stats
     def __init__(self, name: str, health: int = 100, level: int = 1):
         self.name = name
         self.health = health
